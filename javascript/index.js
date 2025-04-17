@@ -141,7 +141,6 @@ function criarCard(dados) {
             div.append(inputTitulo, inputDescricao)
             divBotoes.append(botaoSalvar, botaoExcluir)
 
-
             botaoSalvar.addEventListener('click', (event) => {
                 if (dados[i].id == event.target.id) {
 
