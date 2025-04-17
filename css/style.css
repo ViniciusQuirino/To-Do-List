@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+}
+
+.inicio {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.inicio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* ou "contain" dependendo do efeito desejado */
+    display: block;
+}
+
+.inicio a {
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding: 13px 50px;
+    font-size: 23px;
+    background-color: #242320;
+    border: 2px solid #FF8303 ;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.inicio a:hover{
+    box-shadow: 0 0 10px #FF8303;
+    border: 2px solid #242320;
+}
