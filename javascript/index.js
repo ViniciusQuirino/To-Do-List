@@ -107,7 +107,6 @@ function criarCard(dados) {
             ulLista.appendChild(tagLi)
 
         } else {
-
             let li = document.createElement('li')
             let div = document.createElement('div')
             let divBotoes = document.createElement('div')
